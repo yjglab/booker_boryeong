@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "launch": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.10.0",
+    "puppeteer-core": "^22.10.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
