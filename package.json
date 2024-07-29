@@ -1,0 +1,22 @@
+{
+  "name": "bb-ecole-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cy": "dotenv -e .env.development cypress run",
+    "cy:mobile": "dotenv -e .env.development cypress run --config viewportWidth=375 ",
+    "cy:open": "dotenv -e .env.development cypress open",
+    "cy:open:mobile": "dotenv -e .env.development cypress open --config viewportWidth=375,viewportHeight=667"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/uuid": "^9.0.8",
+    "cypress": "^13.13.1",
+    "dotenv-cli": "^7.4.2",
+    "eslint": "^8",
+    "typescript": "^5"
+  }
+}
